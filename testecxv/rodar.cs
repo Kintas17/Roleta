@@ -8,12 +8,12 @@ namespace testecxv
 {
     class rodar
     {
-        
-        
 
-        private const string cruz = "X.";
-        private int  nnumero = 0;
-        private bool[] numeros = new bool[37];
+
+
+        private const string cruz = "X";
+        private int nnumero = 0;
+        private bool[] numeros = new bool[36];
         private List<int> sorteia(int q, int max)
         {
             Random rnd = new Random();
@@ -29,9 +29,9 @@ namespace testecxv
             return s;
         }
 
-        private List<int>  ns;
-       
-        public List<int> nsorteio => ns = sorteia(1,36);
+        private List<int> ns;
+
+        public List<int> nsorteio => ns = sorteia(1, 36);
 
         public string numero(int n)
         {
@@ -39,7 +39,16 @@ namespace testecxv
             else if (nnumero < 1) { numeros[n] = true; nnumero++; }
             if (numeros[n]) return cruz; else return "";
         }
-        
+        public int ncertos
+        {
+            get
+            {
+                int ncertos = 0;
+                for (int i = 0; i < 36; i++)
+                    if (numeros[i] && ns.Contains(i + 1)) ncertos++;
+                return ncertos;
+            }
 
+        }
     }
 }

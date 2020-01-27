@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-            this.label0 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
@@ -78,17 +77,6 @@
             this.button1.Text = "Roda";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
-            // 
-            // label0
-            // 
-            this.label0.BackColor = System.Drawing.Color.Transparent;
-            this.label0.ForeColor = System.Drawing.Color.Transparent;
-            this.label0.Location = new System.Drawing.Point(322, 162);
-            this.label0.Name = "label0";
-            this.label0.Size = new System.Drawing.Size(25, 43);
-            this.label0.TabIndex = 73;
-            this.label0.Tag = "0";
-            this.label0.Click += new System.EventHandler(this.numeros);
             // 
             // label36
             // 
@@ -530,7 +518,6 @@
             this.n1.Name = "n1";
             this.n1.Size = new System.Drawing.Size(40, 40);
             this.n1.TabIndex = 75;
-            this.n1.Click += new System.EventHandler(this.N1_Click);
             // 
             // Form1
             // 
@@ -540,7 +527,6 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.n1);
-            this.Controls.Add(this.label0);
             this.Controls.Add(this.label36);
             this.Controls.Add(this.label35);
             this.Controls.Add(this.label34);
@@ -587,7 +573,6 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label0;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label34;

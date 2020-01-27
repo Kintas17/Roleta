@@ -8,3 +8,13 @@ C:\Users\P114\source\repos\testecxv\testecxv\obj\Debug\testecxv.csproj.GenerateR
 C:\Users\P114\source\repos\testecxv\testecxv\obj\Debug\testecxv.csproj.CoreCompileInputs.cache
 C:\Users\P114\source\repos\testecxv\testecxv\obj\Debug\testecxv.exe
 C:\Users\P114\source\repos\testecxv\testecxv\obj\Debug\testecxv.pdb
+C:\Users\P114\Source\Repos\Roleta.2\testecxv\bin\Debug\testecxv.exe.config
+C:\Users\P114\Source\Repos\Roleta.2\testecxv\bin\Debug\testecxv.exe
+C:\Users\P114\Source\Repos\Roleta.2\testecxv\bin\Debug\testecxv.pdb
+C:\Users\P114\Source\Repos\Roleta.2\testecxv\obj\Debug\testecxv.csprojAssemblyReference.cache
+C:\Users\P114\Source\Repos\Roleta.2\testecxv\obj\Debug\testecxv.Form1.resources
+C:\Users\P114\Source\Repos\Roleta.2\testecxv\obj\Debug\testecxv.Properties.Resources.resources
+C:\Users\P114\Source\Repos\Roleta.2\testecxv\obj\Debug\testecxv.csproj.GenerateResource.cache
+C:\Users\P114\Source\Repos\Roleta.2\testecxv\obj\Debug\testecxv.csproj.CoreCompileInputs.cache
+C:\Users\P114\Source\Repos\Roleta.2\testecxv\obj\Debug\testecxv.exe
+C:\Users\P114\Source\Repos\Roleta.2\testecxv\obj\Debug\testecxv.pdb

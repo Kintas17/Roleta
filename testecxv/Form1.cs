@@ -23,22 +23,15 @@ namespace testecxv
             int[] ns;
             ns = E.nsorteio.ToArray();
             n1.Text = ns[0].ToString();
+            string frase = "Parabéns! Acertou em ";
+            frase += E.ncertos.ToString() + " números";
+            MessageBox.Show(frase);
         }
 
         private void numeros(object sender, EventArgs e)
         {
             Label tmp = (Label)sender;
             tmp.Text = E.numero(Convert.ToInt32(tmp.Tag) - 1);
-        }
-
-        private void N1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Teste_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
