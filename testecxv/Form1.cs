@@ -23,9 +23,16 @@ namespace testecxv
             int[] ns;
             ns = E.nsorteio.ToArray();
             n1.Text = ns[0].ToString();
-            string frase = "Parabéns! Acertou em ";
-            frase += E.ncertos.ToString() + " números";
-            MessageBox.Show(frase);
+            string frase1 = "Parabéns!Ganhou";
+            string frase2 = "Azar! Ganha para a próxima";
+            if (E.ncertos == 1)
+            {
+              MessageBox.Show(frase1);  
+            }
+            if (E.ncertos <1)
+            {
+                MessageBox.Show(frase2);
+            }
         }
 
         private void numeros(object sender, EventArgs e)
