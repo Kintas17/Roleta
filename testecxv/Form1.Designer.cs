@@ -66,6 +66,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.n1 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -519,6 +520,16 @@
             this.n1.Size = new System.Drawing.Size(40, 40);
             this.n1.TabIndex = 75;
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(38, 406);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(59, 40);
+            this.button2.TabIndex = 76;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -526,6 +537,7 @@
             this.BackgroundImage = global::testecxv.Properties.Resources.Roleta_Europeia;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.n1);
             this.Controls.Add(this.label36);
             this.Controls.Add(this.label35);
@@ -610,6 +622,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label n1;
+        private System.Windows.Forms.Button button2;
     }
 }
 
