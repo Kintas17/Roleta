@@ -43,7 +43,7 @@ namespace testecxv
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            Help.ShowHelp(this, "C:\\Users\\P114\\Source\\Repos\\Roleta1\\testecxv\\Resources\\ajuda.chm");
+            Help.ShowHelp(this, Application.StartupPath + "\\Resources\\ajuda.chm");
         }
     }
 }
